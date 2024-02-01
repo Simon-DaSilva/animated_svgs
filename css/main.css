@@ -1,0 +1,54 @@
+.hidden {
+    display: none;
+}
+
+.piece {
+    
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#blade {
+    transform-origin:  center;
+    transition: all 2s ease;
+}
+
+#spinfan:hover #blade {
+    
+    transform: rotate(360deg);
+    
+}
+
+#lightning:hover .st3{
+    fill: yellow;
+}
+
+#beer:hover .st5{
+    display: none;
+    
+}
+
+
+#bounce {
+    transition: all 0.6s ease;
+}
+
+#ball:hover #bounce {
+    transform: translate(0px,200px);
+}
+
+.st1 {
+    transition: all 3s ease;
+}
+#charge:hover .st1{
+    fill: greenyellow;
+}
+
+#mouth {
+    transition: all 1s ease;
+    transform-origin: center;
+}
+
+#man:hover #mouth {
+    transform: rotate(180deg);
+}
